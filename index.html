@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jonathan Kakesa | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <!-- Curseur personnalisé -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Loader -->
+    <div class="loader">
+        <div class="loader-text">Jonathan Kakesa</div>
+        <div class="loader-bar"><div class="loader-progress"></div></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <a href="#hero" class="logo">JK<span>.</span></a>
+        <ul class="nav-links">
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#skills">Compétences</a></li>
+            <li><a href="#projects">Projets</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span><span></span><span></span>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section id="hero" class="hero">
+        <div class="hero-bg-particles" id="particles"></div>
+        <div class="hero-content">
+            <p class="hero-greeting reveal">Bonjour, je suis</p>
+            <h1 class="hero-name reveal">Jonathan <span>Kakesa</span></h1>
+            <p class="hero-title reveal">Développeur & Créateur Digital</p>
+            <p class="hero-desc reveal">Je conçois et développe des expériences digitales modernes, performantes et élégantes.</p>
+            <div class="hero-cta reveal">
+                <a href="#projects" class="btn btn-primary">Voir mes projets</a>
+                <a href="#contact" class="btn btn-outline">Me contacter</a>
+            </div>
+            <div class="hero-socials reveal">
+                <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"><div class="wheel"></div></div>
+            <p>Scroll</p>
+        </div>
+    </section>
+
+    <!-- À propos -->
+    <section id="about" class="about section">
+        <div class="container">
+            <h2 class="section-title reveal">À propos <span>de moi</span></h2>
+            <div class="about-grid">
+                <div class="about-image reveal">
+                    <div class="image-wrapper">
+                        <div class="image-placeholder"><i class="fas fa-user"></i></div>
+                        <div class="image-border"></div>
+                    </div>
+                </div>
+                <div class="about-text reveal">
+                    <p>Passionné par la technologie et le développement, je crée des solutions digitales qui allient performance, design et innovation.</p>
+                    <p>Mon objectif est de transformer des idées en produits concrets qui apportent une réelle valeur ajoutée.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number" data-target="10">0</span><span>+</span>
+                            <p>Projets réalisés</p>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number" data-target="2">0</span><span>+</span>
+                            <p>Années d'expérience</p>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number" data-target="5">0</span><span>+</span>
+                            <p>Clients satisfaits</p>
+                        </div>
+                    </div>
+                    <a href="#contact" class="btn btn-primary">Travaillons ensemble</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Compétences -->
+    <section id="skills" class="skills section">
+        <div class="container">
+            <h2 class="section-title reveal">Mes <span>Compétences</span></h2>
+            <div class="skills-grid">
+                <div class="skill-card reveal">
+                    <div class="skill-icon"><i class="fas fa-code"></i></div>
+                    <h3>Développement Web</h3>
+                    <p>HTML, CSS, JavaScript, React, Node.js</p>
+                    <div class="skill-bar"><div class="skill-progress" data-width="90%"></div></div>
+                </div>
+                <div class="skill-card reveal">
+                    <div class="skill-icon"><i class="fas fa-mobile-alt"></i></div>
+                    <h3>Applications Mobile</h3>
+                    <p>React Native, Flutter</p>
+                    <div class="skill-bar"><div class="skill-progress" data-width="75%"></div></div>
+                </div>
+                <div class="skill-card reveal">
+                    <div class="skill-icon"><i class="fas fa-palette"></i></div>
+                    <h3>UI/UX Design</h3>
+                    <p>Figma, Adobe XD, Prototypage</p>
+                    <div class="skill-bar"><div class="skill-progress" data-width="80%"></div></div>
+                </div>
+                <div class="skill-card reveal">
+                    <div class="skill-icon"><i class="fas fa-database"></i></div>
+                    <h3>Backend & Base de données</h3>
+                    <p>Python, SQL, MongoDB, API REST</p>
+                    <div class="skill-bar"><div class="skill-progress" data-width="85%"></div></div>
+                </div>
+                <div class="skill-card reveal">
+                    <div class="skill-icon"><i class="fas fa-cloud"></i></div>
+                    <h3>Cloud & DevOps</h3>
+                    <p>AWS, Docker, CI/CD</p>
+                    <div class="skill-bar"><div class="skill-progress" data-width="70%"></div></div>
+                </div>
+                <div class="skill-card reveal">
+                    <div class="skill-icon"><i class="fas fa-brain"></i></div>
+                    <h3>IA & Machine Learning</h3>
+                    <p>TensorFlow, Python, Data Science</p>
+                    <div class="skill-bar"><div class="skill-progress" data-width="65%"></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projets -->
+    <section id="projects" class="projects section">
+        <div class="container">
+            <h2 class="section-title reveal">Mes <span>Projets</span></h2>
+            <div class="projects-filter reveal">
+                <button class="filter-btn active" data-filter="all">Tous</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="mobile">Mobile</button>
+                <button class="filter-btn" data-filter="design">Design</button>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card reveal" data-category="web">
+                    <div class="project-image">
+                        <div class="project-placeholder"><i class="fas fa-globe"></i></div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Plateforme E-commerce</h3>
+                        <p>Site e-commerce moderne avec panier, paiement et gestion des commandes.</p>
+                        <div class="project-tags">
+                            <span>React</span><span>Node.js</span><span>MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card reveal" data-category="mobile">
+                    <div class="project-image">
+                        <div class="project-placeholder"><i class="fas fa-mobile-alt"></i></div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Application Fitness</h3>
+                        <p>App mobile de suivi d'entraînement avec statistiques et plans personnalisés.</p>
+                        <div class="project-tags">
+                            <span>Flutter</span><span>Firebase</span><span>Dart</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card reveal" data-category="web">
+                    <div class="project-image">
+                        <div class="project-placeholder"><i class="fas fa-chart-line"></i></div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Dashboard Analytics</h3>
+                        <p>Tableau de bord interactif pour la visualisation de données en temps réel.</p>
+                        <div class="project-tags">
+                            <span>React</span><span>D3.js</span><span>API REST</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card reveal" data-category="design">
+                    <div class="project-image">
+                        <div class="project-placeholder"><i class="fas fa-paint-brush"></i></div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Refonte UI/UX</h3>
+                        <p>Redesign complet d'une application bancaire avec focus sur l'accessibilité.</p>
+                        <div class="project-tags">
+                            <span>Figma</span><span>UI/UX</span><span>Prototypage</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card reveal" data-category="web">
+                    <div class="project-image">
+                        <div class="project-placeholder"><i class="fas fa-robot"></i></div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Chatbot IA</h3>
+                        <p>Assistant virtuel intelligent intégré à un site de support client.</p>
+                        <div class="project-tags">
+                            <span>Python</span><span>NLP</span><span>AWS</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card reveal" data-category="mobile">
+                    <div class="project-image">
+                        <div class="project-placeholder"><i class="fas fa-map-marked-alt"></i></div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>App de Livraison</h3>
+                        <p>Application de livraison avec suivi GPS en temps réel et notifications.</p>
+                        <div class="project-tags">
+                            <span>React Native</span><span>Node.js</span><span>Maps API</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <h2 class="section-title reveal">Me <span>Contacter</span></h2>
+            <p class="section-subtitle reveal">Vous avez un projet en tête ? N'hésitez pas à me contacter !</p>
+            <div class="contact-grid">
+                <div class="contact-info reveal">
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>jonathan.kakesa@email.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div>
+                            <h4>Localisation</h4>
+                            <p>Kinshasa, RDC</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                        <div>
+                            <h4>Téléphone</h4>
+                            <p>+243 XXX XXX XXX</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form reveal" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" required>
+                        <label for="name">Votre nom</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" required>
+                        <label for="email">Votre email</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" required>
+                        <label for="subject">Sujet</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" rows="5" required></textarea>
+                        <label for="message">Votre message</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">
+                        <span>Envoyer</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <a href="#hero" class="footer-logo">JK<span>.</span></a>
+            <div class="footer-socials">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p>&copy; 2024 Jonathan Kakesa. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
